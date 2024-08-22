@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Epilogue";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/* .login-out {
+  display: flex;
+  justify-content: end;
+} */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav-order {
+  display: flex;
+  text-decoration: none;
+}
+
+#right-nav {
+  display: flex;
+  align-items: end;
+  margin-left: 450px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.hero-desktop {
+  width: 270px;
+  height: 330px;
+}
+
+.text-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 8%);
+}
+.text {
+  color: hsl(0, 0%, 98%);
+}
+.icon {
+  display: flex;
+  gap: 15px;
+  height: 30px;
+}
+
+.body-content {
+  display: flex;
+  margin-top: 30px;
+}
